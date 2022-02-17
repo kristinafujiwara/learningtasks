@@ -7,6 +7,7 @@
 	<h1> Recipes </h1>
 	<ul>
 		<li> <a href = "index.php"> HOME </a> </li>
+		<li> <a href = "/LT2/index.html"> LEARNING TASK 2 </a> </li>
 		<li> <a href = "Beef in Beer.html"> Beef in Beer </a> </li>
 		<li> <a href = "Carbonara al Funghi.html"> Carbonara al Funghi </a> </li>
 		<li> <a href = "Cucumber Salad.html"> Cucumber Salad </a> </li>
