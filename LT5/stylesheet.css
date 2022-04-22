@@ -24,7 +24,7 @@ html, body{
   z-index: 10;
 }
 
-.eball{
+.ball{
   height: 400px;
   width: 400px;
   background: rgb(30,30,30);
@@ -93,14 +93,14 @@ html, body{
   transition: ease-in all 0.2s;
 }
 
-.eball:hover .textbox{
+.ball:hover .textbox{
    opacity: 1;
     -webkit-transform: translate(-50%,-50%) rotate(0deg);
     transform: translate(-50%,-50%) rotate(0deg);
    transition: ease-in all 0.2s;
 }
 
-.eball:hover .triangle{
+.ball:hover .triangle{
   border-top: 90px solid rgba(60,10,120,0.9);
   -webkit-transform: translate(-50%,-50%) rotate(0deg);
   transform: translate(-50%,-50%) rotate(0deg);
