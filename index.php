@@ -1,17 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
 	<head>
-		<title> My Home Page </title>
+		<meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+        <link rel = "stylesheet" href = "style.css">
+		<link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link href = "https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Zen+Loop&display=swap" rel = "stylesheet">
+        <script>
+        <?php require_once("script.js");?>
+        </script>
+
+        <title> HOME </title>
 	</head>
 	<body>
-	<h1> Welcome to My Website! I am Kristina Mickaela Fujiwara! </h1>
-	<ul>
-		<li> <a href = "index.php"> HOME </a> </li>
-		<li> <a href = "/LT2/index.html"> LEARNING TASK 2 </a> </li>
-		<li> <a href = "/LT3/index.html"> LEARNING TASK 3 </a> </li>
-		<li> <a href = "/LT4/index.html"> LEARNING TASK 4 </a> </li>
-		<li> <a href = "/LT4/index.html"> LEARNING TASK 5 </a> </li>
-		<li> <a href = "/CLE1MT/index.html"> CLE Midterm Exam </a> </li>
-	</ul>
+		<?php include 'navbar.php' ?>
+		
+		<div>
+			<h1 class = "name"> Kristina Mickaela Fujiwara </h1>
+			<p class = "credits"> &copy; 2022 Kristina Mickaela Fujiwara </p>
+		</div>
 	</body>
 </html>
